@@ -46,7 +46,7 @@
   border: 0px solid rgb(204, 204, 204);
   background: rgb(255, 255, 255);
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 0px;
   outline: none;
   padding: 0px;
   animation: modal-enter 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -58,6 +58,7 @@
     left: 40px;
     right: 40px;
     bottom: 40px;
+    border-radius: 6px;
   }
 }
 
