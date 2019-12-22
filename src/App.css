@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.Modal {
+      position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    border: 0px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 6px;
+    outline: none;
+    padding: 0px;
+}
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333333;
+    opacity: 0.9;
+  }
