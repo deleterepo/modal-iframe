@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <>
-      <button onClick={() => setShowModal(true)}>Trigger Modal</button>
+      <button onClick={() => setShowModal(true)}>Open Modal</button>
       <ReactModal
         isOpen={showModal}
         contentLabel="Minimal Modal Example"
@@ -23,7 +23,7 @@ const App = () => {
           afterOpen: "ModalAfterOpen",
           beforeClose: "ModalBeforeClose"
         }}
-        closeTimeoutMS={1000}
+        closeTimeoutMS={500}
         shouldCloseOnOverlayClick
         onRequestClose={() => setShowModal(false)}
       >
@@ -41,7 +41,7 @@ const App = () => {
           onClick={() => setShowModal(false)}
           style={{ position: "absolute", top: "0px", right: "0px" }}
         >
-          Close Modal
+          Close
         </button>
       </ReactModal>
       <iframe
